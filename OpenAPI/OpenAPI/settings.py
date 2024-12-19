@@ -53,9 +53,20 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SESSION_COOKIE_AGE = 3600  # duration in seconds, 1 hour for Task 3.3
+
+
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+
+SPECTACULAR_SETTINGS= {
+    'TITLE' : 'Open API - Mercedes Benz R & D ',
+    'DESCRIPTION' : 'Backend endpoints to access realtime Data streams',
+    'VERSION' : '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
+
 
 
 ROOT_URLCONF = 'OpenAPI.urls'
