@@ -5,7 +5,7 @@
 2. Set OpenAPI Documentation and disable default routers [Done - used drf spectacular]
 3. Create Dummy Hardcoded Schema  [Done]
 
-### Peform below operations on above Dummy Data 
+### Perform below operations on above Dummy Data 
 3.0. Add new column as Date and convert datetime into "6-November-2024" format [Done]\
 3.1. Create Endpoints to perform CRUD operations on above data [Done - exported Postman collections]\
 3.2. Trigger a notification job at the end of POST call which executed after some delay [Done]\
